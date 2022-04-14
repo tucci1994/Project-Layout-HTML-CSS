@@ -1,0 +1,316 @@
+
+:root{
+    --tx-black : #2b2828;
+    --tx-gray : rgba(122, 120, 120, 0.808);
+    --tx-darkred : darkred;
+    --bg-darkred: darkred;
+    --bg-grey: #ececec;
+}
+
+*{
+    font-family: 'Nova Square', cursive;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #ececec;
+}
+
+
+
+h1 , h2 , h3{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+/* classi color custom */
+
+.bg-custom-light{
+    background-color: #fff;
+}
+
+.darkred{
+    color: var(--bg-darkred);
+}
+
+
+
+/* classi custom margin */
+
+.mt-6{
+    margin-top: 60px;
+}
+
+.mb-6{
+    margin-bottom: 60px;
+}
+
+.ms-7{
+    margin-left: 70px;
+}
+
+.mt-10{
+    margin-top: 200px;
+}
+
+/* font custom size */
+
+.fw-custom-1{
+    font-weight: 600;
+}
+
+
+/* classi title custom */
+
+
+.title-1-home-custom{
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    color: darkred;
+    position: absolute;
+    top: 35%;
+    left: calc(50% - 180px)
+}
+
+
+/* classe button custom  */
+
+.navbar-collapse {
+    flex-basis: 0%;
+    flex-grow: 1;
+    align-items: center;
+    transition: 1s;
+}
+
+.collapse{
+    transition: 1s;
+}
+
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+   border: 3px solid var(--bg-darkred);
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0px;
+    box-shadow: none;
+}
+
+.button-nav-custom{
+    color: darkred;
+    font-size: 20px;
+ }
+
+.navbar-toggler:focus{
+   color: darkred;
+}
+
+
+/* classe logo custom */
+
+.img-logo{
+    width: 200px;
+    height: 100px;
+}
+
+
+/* classi img-home custom */
+
+
+.img-home-1{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(white,transparent,rgba(255, 255, 255, 0.274)), url('./media/switzerland-862870_1920.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -20px;
+}
+
+.img-home-2 img{
+    height: 90%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+/* classi sezione lorem ipsum home  */
+
+.cite{
+    position: relative;
+    word-spacing: 3px;
+}
+
+.cite::before{
+    position: absolute;
+    top: -35px;
+    left: 30px;
+    content: open-quote;
+    font-size: 64px;
+    color: var(--bg-darkred);
+}
+
+.cite::after{
+    position: absolute;
+    margin-left: 5px;
+    content: close-quote;
+    font-size: 64px;
+    color: var(--bg-darkred);
+}
+
+
+
+/* sezione icon home */
+
+.icon-custom-home{
+    font-size: 40px;
+    color: var(--bg-darkred);
+}
+
+.border-custom-icon{
+    width: 60%;
+    height: 4px;
+    background-color: var(--bg-darkred);
+    position: relative;
+}
+
+.border-custom-icon::before{
+    position: absolute;
+    top: -12px;
+    left: calc(50% - 15px);
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 3px solid var(--bg-darkred);
+}
+
+
+/* sezione classi 2 COLUMN LOREM IPSUM */
+
+.btn-lorem-custom{
+    width: 200px;
+    height: 50px;
+    background-color: var(--bg-darkred);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.img-lorem-ipsum{
+    width: 100%;
+    height: 500px;
+    background-image: url('./media/trees2.png');
+    position: relative;
+    top: -40px;
+}
+
+
+/* sezione our timeline */
+
+
+.container-custom{
+    position: relative;
+    top: -60px;
+    background-color: white;
+}
+
+.img-background{
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.timeline-area{
+    border-left: 3px solid var(--bg-darkred);
+    padding: 0px 30px 0px 40px;
+}
+
+.timeline-area-circle{
+    position: relative;
+}
+
+
+.timeline-area-circle::before{
+    position: absolute;
+    top: 0px;
+    left: -57px;
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 3px solid var(--bg-darkred);
+}
+
+
+/* SEZIONE OUR TEAM */
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-image: url('./media/landscape-975091_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 0px 10px var(--bg-grey);
+    border: 3px solid var(--bg-darkred);
+}
+
+.h3-our-team{
+     color: var(--tx-darkred);
+     font-size: 26px;
+     font-weight: 600;
+}
+
+.icon-custom-our-team{
+    font-size: 20px;
+    color: var(--bg-darkred);
+}
+
+/* SEZIONE OUR BENEFIT */
+
+.circle-our-benefit{
+    width: 300px;
+    height: 300px;
+    background-image: url('./media/fog.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 0px 10px var(--bg-grey);
+    border: 3px solid var(--bg-darkred);
+}
+
+/* SEZIONE FOOTER */
+
+.container-footer{
+    background-color: var(--bg-darkred);
+    color: white;
+}
+
+.link-custom-footer{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+.list-link-footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
